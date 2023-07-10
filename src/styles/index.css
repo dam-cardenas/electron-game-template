@@ -1,0 +1,43 @@
+@import url('./components/hero.css');
+@import url('./components/menu.css');
+@import url('./components/controls.css');
+@import url('./components/instructions.css');
+@import url('./components/keys.css');
+@import url('./components/board.css');
+@font-face {
+  font-family: Main;
+  src: url('./../assets/PressStart2P-Regular.ttf');
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  color: black;
+  text-shadow: 3px 3px 1px rgba(61, 232, 255, 0.5),-2px 2px 1px rgba(255, 71, 181, 0.514);
+  user-select: none;
+}
+
+body {
+  font-family: Main;
+  width: 400px; 
+  height: 600px;
+  background-color: #E8E2E2;
+  border-radius: 20px;
+}
+
+.inline  {
+  display: inline-block;
+}
+
+.center {
+  margin: 0 auto;
+}
+
+.fit-content {
+  width: fit-content;
+}
+
+.mt5 { margin-top: 5px; }
+.mt10 { margin-top: 10px; }
+.mt15 { margin-top: 15px; }
+
